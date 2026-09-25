@@ -1,0 +1,6 @@
+name: Minimal Caller
+on:
+  workflow_dispatch: {}
+jobs:
+  deploy:
+    uses: Cozentus-Technologies/hackathon-deploy/.github/workflows/minimal-test.yml@main
