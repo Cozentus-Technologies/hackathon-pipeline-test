@@ -1,0 +1,6 @@
+name: Caller test-b
+on:
+  workflow_dispatch: {}
+jobs:
+  deploy:
+    uses: Cozentus-Technologies/hackathon-deploy/.github/workflows/test-b.yml@main
