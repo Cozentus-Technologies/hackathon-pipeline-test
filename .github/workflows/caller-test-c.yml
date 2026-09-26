@@ -1,6 +1,0 @@
-name: Caller test-c
-on:
-  workflow_dispatch: {}
-jobs:
-  deploy:
-    uses: Cozentus-Technologies/hackathon-deploy/.github/workflows/test-c.yml@main
